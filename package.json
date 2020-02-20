@@ -27,8 +27,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:ts": "nodemon --config nodemon-ts.json",
     "start:js": "nodemon --config nodemon-js.json",
-    "build": "tsc",
-    "watch": "tsc -w",
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc -w",
     "pub": "npm publish --access public"
   },
   "keywords": [],
