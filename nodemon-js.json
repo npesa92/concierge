@@ -1,0 +1,6 @@
+{
+    "watch": ["lib"],
+    "ext": "js",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "npm i -g ./"
+  }

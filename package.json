@@ -1,0 +1,41 @@
+{
+  "name": "@nickyp/concierge",
+  "version": "0.1.1",
+  "main": "lib/index.js",
+  "bin": {
+    "nicky": "lib/index.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "commander": "^4.1.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/clear": "^0.1.0",
+    "@types/figlet": "^1.2.0",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.7.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "3.7.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:ts": "nodemon --config nodemon-ts.json",
+    "start:js": "nodemon --config nodemon-js.json",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "pub": "npm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}

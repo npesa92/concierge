@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": ["es6", "esnext", "dom"],
+        "module": "commonjs",
+        "noImplicitReturns": true,
+        "outDir": "lib",
+        "target": "es5",
+        "esModuleInterop": true,
+    },
+    "compileOnSave": true,
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
